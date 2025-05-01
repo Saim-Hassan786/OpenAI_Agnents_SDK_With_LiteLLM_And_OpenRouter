@@ -1,18 +1,18 @@
-# 🤖 OpenAI Agents SDK with LiteLLM and OpenRouter Integration
+# 🤖 OpenAI Agents SDK + LiteLLM + OpenRouter Integration
 
-A simple starter project to run **OpenAI's new Agents SDK** using **LiteLLM** for local model abstraction and **OpenRouter** as a backend routing provider.
+A plug-and-play starter setup to use OpenAI's new **Agents SDK** with **LiteLLM** as a proxy and **OpenRouter.ai** as a backend for accessing multiple large language models (LLMs) like GPT-4, Claude, Mistral, and more.
+
+---
+
+## 📌 What This Project Does
+
+- 🧠 Uses the **OpenAI Agents SDK** to run event-driven AI assistants.
+- ⚡ Routes requests through **LiteLLM**, a lightweight OpenAI-compatible proxy.
+- 🌍 Leverages **OpenRouter.ai** to access multiple LLM providers with one key.
+- ✅ Supports local or hosted agent workflows with no vendor lock-in.
 
 ---
 
-## 🚀 Overview
-
-This project demonstrates how to:
-
-- Use OpenAI's new [`agents`](https://github.com/openai/openai-python/tree/main/src/openai/agents) SDK.
-- Route requests via [LiteLLM](https://github.com/BerriAI/litellm), a drop-in OpenAI-compatible proxy.
-- Integrate with [OpenRouter.ai](https://openrouter.ai/) to access multiple LLMs via a single API key.
-
----
 
 ## 📦 Tech Stack
 
@@ -21,4 +21,25 @@ This project demonstrates how to:
 - 🌐 **OpenRouter** — unified API gateway for many LLMs (Mistral, Claude, GPT-4, etc.)
 
 ---
+
+💡 **Use Cases**
+
+Local-first AI apps using agent architecture
+
+Experiment with multiple LLM providers via one proxy
+
+Cost-optimized dev setups using non-OpenAI models
+
+Easily swap models without changing client code
+
+
+🔗 **Resources**
+
+🧠 OpenAI Agents SDK Docs
+
+⚡ LiteLLM GitHub
+
+🌐 OpenRouter.ai
+
+📃 OpenRouter Supported Models
 
